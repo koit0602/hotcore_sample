@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- original css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>レッスン一覧 | hotCore | 松山初の少人数制ヨガスタジオ</title>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__logo">
+            <h1><a href="index.html"><img src="img/logo.svg" alt="hotCoreのロゴ" class="header__logo-img"></a></h1>
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+        
+        <!-- ハンバーガーメニュー -->
+        <div class="sp-header">
+            <div id="trial-btn" class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></div>
+            <div id="hamburger" class="header__menu-item hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="sp-header__menu" class="sp-header__menu">
+            <li class="sp-header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="sp-header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="sp-header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="sp-header__menu-item"><a class="sp-header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+    </header>
+
+    <div class="page-parts__container">
+        <!-- 下層ページのヘッダー -->
+        <div class="page-parts__header resson__header">
+            <picture>
+                <source class="page-parts__header-mask" srcset="img/sp-page-parts__header-mask.svg" alt="" media="(max-width: 767px)">
+                <img class="page-parts__header-mask" src="img/page-parts__header-mask.svg" alt="">
+            </picture>
+            <h2 class="page-parts__maintitle">レッスン一覧</h2>
+        </div>
+
+        <ul class="resson__lists">
+            <!-- ビギナーコース -->
+            <li class="resson-list common-wrapper">
+                <div class="common-inner">
+                    <div class="common-title">
+                        <h2 class="common-maintitle">ビギナーコース</h2>
+                        <img src="img/orange-line.svg" alt="" class="common-line">
+                    </div>
+                    <div class="resson__wrap">
+                        <div class="resson__img">
+                            <img src="img/resson__img.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子">
+                        </div>
+                        <div class="resson__desc">
+                            <h3 class="resson__subtitle common-subtitle">ヨガが初めての人におすすめ</h3>
+                            <ul class="resson__info-lists mt-50">
+                                <li class="resson__info-list">回数 : 月４回</li>
+                                <li class="resson__info-list mt-20">料金 : 5,000円 (税込)</li>
+                            </ul>
+                            <p class="resson__features mt-30">特徴</p>
+                            <p class="resson__text common-text mt-20">
+                                ヨガが初めてだという方におすすめです。<br>
+                                基礎を中心としたレッスン内容で、呼吸法〜基礎的な姿勢を重点的に行います。<br>
+                                週に1回通うことができるので、無理なく継続できるレッスンとなっています！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- スタンダードコース -->
+            <li class="resson-list common-wrapper">
+                <div class="common-inner">
+                    <div class="common-title">
+                        <h2 class="common-maintitle">スタンダードコース</h2>
+                        <img src="img/orange-line.svg" alt="" class="common-line">
+                    </div>
+                    <div class="resson__wrap">
+                        <div class="resson__img">
+                            <img src="img/resson__img.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子">
+                        </div>
+                        <div class="resson__desc">
+                            <h3 class="resson__subtitle common-subtitle">ヨガの経験がある方におすすめ</h3>
+                            <ul class="resson__info-lists mt-50">
+                                <li class="resson__info-list">回数 : 月8回</li>
+                                <li class="resson__info-list mt-20">料金 : 10,000円 (税込)</li>
+                            </ul>
+                            <p class="resson__features mt-30">特徴</p>
+                            <p class="resson__text common-text mt-20">
+                                ヨガの経験がある方におすすめです。<br>
+                                基礎的な姿勢に加えて、インド式の瞑想や哲学も合わせて行えます。ビギナーじゃ物足りない、アドバンスだとレベルが高すぎると感じている方におすすめ！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- アドバンスコース -->
+            <li class="resson-list common-wrapper">
+                <div class="common-inner">
+                    <div class="common-title">
+                        <h2 class="common-maintitle">アドバンスコース</h2>
+                        <img src="img/orange-line.svg" alt="" class="common-line">
+                    </div>
+                    <div class="resson__wrap">
+                        <div class="resson__img">
+                            <img src="img/resson__img.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子">
+                        </div>
+                        <div class="resson__desc">
+                            <h3 class="resson__subtitle common-subtitle">ヨガが初めての人におすすめ</h3>
+                            <ul class="resson__info-lists mt-50">
+                                <li class="resson__info-list">回数 : 通い放題</li>
+                                <li class="resson__info-list mt-20">料金 : 15,000円 (税込)</li>
+                            </ul>
+                            <p class="resson__features mt-30">特徴</p>
+                            <p class="resson__text common-text mt-20">
+                                伝統的なインドのヨガを中心とした、上級者向けのレッスンです。通い放題のため、短期間での体の変化を実感したい方におすすめです。<br>
+                                （毎週月曜は定休日のため通うことができません）
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <!-- コース比較 -->
+        <section class="resson-section common-wrapper">
+            <div class="common-inner">
+                <div class="common-title">
+                    <h2 class="common-maintitle">コース比較表</h2>
+                    <img src="img/orange-line.svg" alt="" class="common-line">
+                </div>
+                <ul class="resson__cp-lists">
+                    <li class="resson__cp-list">
+                        <div class="resson__cp-topbox">
+                            <h3 class="resson__cp-name">ビギナー<span class="br"></span>コース</h3>
+                            <p class="resson__cp-price">5,000円<span>(税込)</span></p>
+                        </div>
+                        <div class="resson__cp-bottombox">
+                            <p class="resson__cp-not">レッスン回数 : <span class="br">４</span><span>回 / 月</span></p>
+                            <ul class="resson__cp-features mt-20">
+                                <li>・ヨガマット貸出し</li>
+                                <li>・イベント参加</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="resson__cp-list">
+                        <div class="resson__cp-topbox">
+                            <h3 class="resson__cp-name">スタンダード<span class="br"></span>コース</h3>
+                            <p class="resson__cp-price">10,000円<span>(税込)</span></p>
+                        </div>
+                        <div class="resson__cp-bottombox">
+                            <p class="resson__cp-not">レッスン回数 : <span class="br">８</span><span>回 / 月</span></p>
+                            <ul class="resson__cp-features mt-20">
+                                <li>・ヨガマット貸出し</li>
+                                <li>・イベント参加</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="resson__cp-list">
+                        <div class="resson__cp-topbox">
+                            <h3 class="resson__cp-name">アドバンス<span class="br"></span>コース</h3>
+                            <p class="resson__cp-price">15,000円<span>(税込)</span></p>
+                        </div>
+                        <div class="resson__cp-bottombox">
+                            <p class="resson__cp-not resson__cp-any">レッスン回数 : <span class="br">通い放題</span></p>
+                            <ul class="resson__cp-features mt-20">
+                                <li>・ヨガマット貸出し</li>
+                                <li>・水素水サーバー</li>
+                                <li>・イベント参加</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- お申込みはこちらから -->
+        <section class="banner common-wrapper">
+            <div class="banner__inner common-inner">
+                <!-- <div class="banner__desc">
+                    <h2 class="banner__desc-title">手ぶらで参加<br>無料レッスン受付中！！</h2>
+                    <img src="img/white-line.svg" class="banner__desc-line">
+                    <p class="banner__desc-text">
+                        練習着、シューズ、マット、何も準備してない・・・<br>
+                        そんなあなたのためにヨガセット1式貸し出し！<br>
+                        フォームで最短3分で予約完了！
+                    </p>
+                    <div class="banner__contact-box">
+                        <img src="img/banner__img.jpg" alt="4人の女性がヨガをしている様子" class="banner__img">
+                        <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a>
+                    </div>
+                </div> -->
+                <picture>
+                    <source class="banner-img" srcset="img/sp-banner.svg" media="(max-width: 639px)">
+                    <img src="img/banner.svg" alt="手ぶらで参加無料レッスン受付中" class="banner-img">
+                </picture>
+                <a href="">
+                    <picture>
+                        <source class="banner-btn" srcset="img/sp-banner-btn.svg" media="(max-width: 639px)">
+                        <img src="img/banner-btn.svg" alt="無料体験会お申し込みはこちら" class="banner-btn">
+                    </picture>
+                </a>
+                <!-- <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a> -->
+            </div>
+        </section>
+    </div>
+
+
+    <!-- フッター -->
+    <footer class="footer">
+        <picture>
+            <source srcset="img/sp-footer__deco.svg" media="(max-width: 639px)">
+            <img class="footer__deco" src="img/footer__item.svg" alt="">
+        </picture>
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <div class="footer__logo">
+                    <a href="index.html"><img src="img/footer__logo.svg" alt="hotCore" class="footer__logo-img"></a>
+                </div>
+                <div class="footer__desc-detail">
+                    <address>
+                        <p class="address common-text">
+                            〒000-0000 愛媛県松山市==============<br>
+                            089-1234-5678
+                        </p>   
+                    </address>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+                        <li class="footer__menu-item"><a href="resson.html">レッスン一覧</a></li>
+                        <li class="footer__menu-item"><a href="contact.html">お問い合せ</a></li>
+                        <li class="footer__menu-item"><a href="trial.html">体験会ご予約</a></li>
+                    </ul>
+                </div>
+            </div>
+            <small>Copyright &copy; Hot Core</small>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

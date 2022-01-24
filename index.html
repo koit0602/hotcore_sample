@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- original css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>hotCore | 松山初の少人数制ヨガスタジオ</title>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__logo">
+            <h1><a href="index.html"><img src="img/logo.svg" alt="hotCoreのロゴ" class="header__logo-img"></a></h1>
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+        
+        <!-- ハンバーガーメニュー -->
+        <div class="sp-header">
+            <div id="trial-btn" class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></div>
+            <div id="hamburger" class="header__menu-item hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="sp-header__menu" class="sp-header__menu">
+            <li class="sp-header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="sp-header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="sp-header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="sp-header__menu-item"><a class="sp-header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+    </header>
+    
+    <!-- ファーストビュー -->
+    <section class="front-fv">
+        <div class="front-fv__bg">
+            <picture>
+                <source srcset="img/sp-front-fv.jpg" alt="明るく綺麗なヨガスタジオで、大きく手を広げヨガをしている女性" media="(max-width: 639px)">
+                <img src="img/front-fv.jpg" alt="明るく綺麗なヨガスタジオで、大きく手を広げヨガをしている女性">
+            </picture>
+            <div class="front-fv__desc">
+                <h2 class="front-fv__maintitle">新しい自分と出会える<br>松山初の少人数制ヨガ</h2>
+                <p class="front-fv__subtitle">
+                    少人数制だから、挫折せずに楽しく続けられる。<br>
+                    アットホームなスタジオ、そして、本場インドで培ったヨガを<br>
+                    ここ松山で。
+                </p>
+            </div>
+        </div>
+        <div class="sp-front-fv__desc">
+            <h2 class="front-fv__maintitle">新しい自分と出会える<br>松山初の少人数制ヨガ</h2>
+            <p class="front-fv__subtitle">
+                少人数制だから、挫折せずに楽しく続けられる。<br>
+                アットホームなスタジオ、そして、本場インドで培ったヨガを<br>
+                ここ松山で。
+            </p>
+        </div>
+    </section>
+
+    <!-- お申込みはこちらから -->
+    <section class="banner common-wrapper">
+        <div class="banner__inner common-inner">
+            <!-- <div class="banner__desc">
+                <h2 class="banner__desc-title">手ぶらで参加<br>無料レッスン受付中！！</h2>
+                <img src="img/white-line.svg" class="banner__desc-line">
+                <p class="banner__desc-text">
+                    練習着、シューズ、マット、何も準備してない・・・<br>
+                    そんなあなたのためにヨガセット1式貸し出し！<br>
+                    フォームで最短3分で予約完了！
+                </p>
+                <div class="banner__contact-box">
+                    <img src="img/banner__img.jpg" alt="4人の女性がヨガをしている様子" class="banner__img">
+                    <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a>
+                </div>
+            </div> -->
+            <picture>
+                <source class="banner-img" srcset="img/sp-banner.svg" media="(max-width: 639px)">
+                <img src="img/banner.svg" alt="手ぶらで参加無料レッスン受付中" class="banner-img">
+            </picture>
+            <a href="">
+                <picture>
+                    <source class="banner-btn" srcset="img/sp-banner-btn.svg" media="(max-width: 639px)">
+                    <img src="img/banner-btn.svg" alt="無料体験会お申し込みはこちら" class="banner-btn">
+                </picture>
+            </a>
+            <!-- <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a> -->
+        </div>
+    </section>
+    
+
+    <!-- アバウト -->
+    <section class="front-about common-wrapper">
+        <div class="front-about__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">ヨガスタジオ<span class="sp-br"></span>「ホットコア」へようこそ</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-about__wrap">
+                <div class="front-about__desc-box">
+                    <div class="front-about__desc">
+                        <h3 class="common-subtitle">本場インドのヨガを、ここ松山で。</h3>
+                        <p class="common-text mt-30">
+                            ホットコアは、本場インドのヨガを学んだインストラクターによる、少人数制レッスンが受けれる松山唯一のスタジオです。<br>
+                            のびのびとした空間で体も心もリラックスさせ、<br>
+                            日常から解放された60分間を楽しみましょう。
+                        </p>
+                    </div>
+                    <img src="img/front-about__img01.png" alt="" class="front-about__img">
+                </div>
+                <div class="front-about__desc-box">
+                    <img src="img/front-about__img02.png" alt="" class="front-about__img">
+                    <div class="front-about__desc">
+                        <h3 class="common-subtitle">スタッフ、お客様を近くに感じれる</h3>
+                        <p class="common-text  mt-30">
+                            少人数制だからスタッフ、お客様同士の距離が近い。<br>
+                            一人では通うのが不安というあなた。<br>
+                            一緒に頑張る仲間を探せる環境がここにあります。<br>
+                            お客様、一人一人とのコミュニケーションを大切した、<br>
+                            アットホームな空間でお待ちしております。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スタジオ -->
+    <section class="front-studio common-wrapper">
+        <div class="front-studio__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">ホットコアのスタジオ</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-studio__wrap">
+                <div class="front-studio__img-box">
+                    <img src="img/front-studio__img.png" alt="白を基調とし、明るく綺麗なスタジオ。観葉植物もありとても居心地のよい場所です" class="front-studio__img">
+                    <img src="img/front-studio__img.png" alt="白を基調とし、明るく綺麗なスタジオ。観葉植物もありとても居心地のよい場所です" class="front-studio__img">
+                </div>
+                <div class="common__desc">
+                    <h3 class="common-subtitle">自然豊かで心地の良いスタジオ</h3>
+                    <p class="common-text mt-20">緑を基調とした空間で室内とは思えないスタジオ。<span class="sp-br"></span>のびのびとした空間で体も心もリラックスしましょう。</p>
+                </div>
+                <div class="front-studio__guideline">
+                    <p class="front-studio__guideline-text">
+                        ※コロナウイルスの感染対策のため<span class="sp-br"></span>FIAのガイドラインに沿って運営をしております。<br>
+                        <a href="">詳しくはこちら</a>をご覧下さい。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- インストラクター -->
+    <section class="front-instructor common-wrapper">
+        <div class="front-instructor__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">ホットコアのインストラクター</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-instructor__wrap">
+                <div class="common__desc">
+                    <h3 class="common-subtitle">指導経験豊富な女性インストラクターが指導</h3>
+                    <p class="common-text">インストラクターは全員女性。ヨガレッスンの指導経験豊富なメンバーです。インストラクターの紹介。</p>
+                </div>
+                <div class="front-instructor__desc">
+                    <div class="front-instructor__desc-box">
+                        <div class="front-instructor__info-box">
+                            <div class="front-instructor__img">
+                                <img src="img/front-instructor.png" alt="インストラクターYUKOさんの写真です">
+                            </div>
+                            <div class="front-instructor__info">
+                                <p class="front-instructor__name">YUKO<a href="#"><i class="fab fa-instagram individual"></i></a></p>
+                                <ul class="front-instructor__ctf">
+                                    <li>E-RYT 500 資格保持者</li>
+                                    <li>YIC インド中央政府公認資格</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="front-instructor__text">
+                            小学生〜高校まで水泳部として活動していたが、怪我が原因で離れる。そこで、ヨガと出会い本場で学びたいと思い、インドへ渡る。ヨガの本場インドで学んだのち、ホットコアのスタジオを開く。
+                        </p>
+                    </div>
+                    <div class="front-instructor__desc-box">
+                        <div class="front-instructor__info-box">
+                            <div class="front-instructor__img">
+                                <img src="img/front-instructor.png" alt="インストラクターERIさんの写真です">
+                            </div>
+                            <div class="front-instructor__info">
+                                <p class="front-instructor__name">ERI<a href=""><i class="fab fa-instagram individual"></i></a></p>
+                                <ul class="front-instructor__ctf">
+                                    <li>E-RYT 200資格保持者</li>
+                                    <li>
+                                        NPO法人日本YOGA盟の<br>
+                                        ティーチャーインストラクター
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="front-instructor__text">
+                            ストレスが原因で体調を崩したことをきっかけでヨガを始める。ヨガを学んだことで、心も体もどんどんと良くなることを実感。<br>
+                            YUKOと意気投合しホットコアにジョイン。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コース -->
+    <section class="front-course common-wrapper">
+        <div class="front-course__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">ホットコアのコース</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-course__wrap">
+                <div class="front-course__course-box">
+                    <img src="img/front-course.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子" class="front-course__img">
+                    <div class="front-course__desc">
+                        <h3 class="front-course__subtitle common-subtitle">ビギナーコース</h3>
+                        <p class="front-course__text common-text">
+                            週１回のレッスンコース。<br>
+                            ヨガが初めてだという方におすすめ!
+                        </p>
+                    </div>
+                </div>
+                <div class="front-course__course-box">
+                    <img src="img/front-course.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子" class="front-course__img">
+                    <div class="front-course__desc">
+                        <h3 class="front-course__subtitle common-subtitle">スタンダードコース</h3>
+                        <p class="front-course__text common-text">
+                            月8回のレッスンコース。<br>
+                            ヨガの経験がある方におすすめ!
+                        </p>
+                    </div>
+                </div>
+                <div class="front-course__course-box">
+                    <img src="img/front-course.png" alt="ヨガスタジオで、インストラクターの方に3人の女性がヨガを教えてもらっている様子" class="front-course__img">
+                    <div class="front-course__desc">
+                        <h3 class="front-course__subtitle common-subtitle">アドバンスコース</h3>
+                        <p class="front-course__text common-text">
+                            通い放題のレッスンコース。<br>
+                            短期間での体の変化を実感したい方におすすめ!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="front-course__btn">
+                <a href="">コースを詳しく見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 紹介 -->
+    <section class="front-itd common-wrapper">
+        <div class="front-itd__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">レッスンのご紹介</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-itd__wrap">
+                <img src="img/front-itd.jpg" alt="4人の女性がヨガをしている様子" class="front-itd__img">
+                <div class="front-itd__desc-box">
+                    <div class="front-itd__desc">
+                        <h3 class="front-itd__subtitle common-subtitle">3分で分かるホットコア</h3>
+                        <p class="common-text">
+                            忙しいあなたのために、<br>
+                            通常1時間のレッスン内容を3分にググッと短縮！<br>
+                            実際のスタジオの様子やレッスンの様子をチェックしてみましょう！
+                        </p>
+                    </div>
+                    <a class="front-itd__btn" href="">無料体験会お申し込みはこちら</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 生徒さんの声 -->
+    <section class="front-voice common-wrapper">
+        <div class="front-voice__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">生徒さんの声</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-voice__wrap">
+                <div class="front-voice__desc-box">
+                    <img src="img/front-voice.png" alt="ホットコアに入会された女性の写真です" class="front-voice__img">
+                    <div class="front-voice__desc">
+                        <p class="front-voice__info">Y.Kさん / 20代女性</p>
+                        <p class="front-voice__text">運動不足をどうにかしたいと思い入会しました。スタジオが松山市駅の近くにあるので、仕事帰りに寄ることができとても便利です。スタジオは自然がいっぱいで、外にいる気分でのびのびしてヨガを楽しむことができています。</p>
+                    </div>
+                </div>
+                <div class="front-voice__desc-box">
+                    <img src="img/front-voice.png" alt="ホットコアに入会された女性の写真です" class="front-voice__img">
+                    <div class="front-voice__desc">
+                        <p class="front-voice__info">O.Tさん / 30代女性 </p>
+                        <p class="front-voice__text">日頃のストレス解消をしたいと思い入会しました。少人数制と書いてあったため、最初は、ついていけるか不安でしたが、スタッフさんのサポートもあって楽しく続けられています。なんといっても、生徒とスタッフの距離が近いので、ホットコアに通うのが楽しみです。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- アクセス -->
+    <section class="front-access common-wrapper">
+        <div class="front-access__inner common-inner-fluid">
+            <div class="common-title">
+                <h2 class="common-maintitle">アクセス</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-access__wrap">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.0916024181474!2d132.76391031430046!3d33.835748236557116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5f167881e49%3A0xb416d53320b4b045!2z44OG44OD44Kv44Ki44Kk44Ko44K5IOOCs-ODr-ODvOOCreODs-OCsCDmnb7lsbE!5e0!3m2!1sja!2sjp!4v1641968722433!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <address>
+                    <p>〒000-0000 愛媛県松山市=================</p>
+                </address>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="front-contact common-wrapper">
+        <div class="front-contact__inner common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">無料体験会のお申し込み<br>ご相談はお気軽にお問合せください</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+            <div class="front-contact__wrap">
+                <a href="" class="front-contact__btn">お問い合わせ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <picture>
+            <source srcset="img/sp-footer__deco.svg" media="(max-width: 639px)">
+            <img class="footer__deco" src="img/footer__item.svg" alt="">
+        </picture>
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <div class="footer__logo">
+                    <a href="index.html"><img src="img/footer__logo.svg" alt="hotCore" class="footer__logo-img"></a>
+                </div>
+                <div class="footer__desc-detail">
+                    <address>
+                        <p class="address common-text">
+                            〒000-0000 愛媛県松山市==============<br>
+                            089-1234-5678
+                        </p>   
+                    </address>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+                        <li class="footer__menu-item"><a href="resson.html">レッスン一覧</a></li>
+                        <li class="footer__menu-item"><a href="contact.html">お問い合せ</a></li>
+                        <li class="footer__menu-item"><a href="trial.html">体験会ご予約</a></li>
+                    </ul>
+                </div>
+            </div>
+            <small>Copyright &copy; Hot Core</small>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

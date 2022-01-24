@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- original css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>hotCore | 松山初の少人数制ヨガスタジオ</title>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__logo">
+            <h1><a href="index.html"><img src="img/logo.svg" alt="hotCoreのロゴ" class="header__logo-img"></a></h1>
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+        
+        <!-- ハンバーガーメニュー -->
+        <div class="sp-header">
+            <div id="trial-btn" class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></div>
+            <div id="hamburger" class="header__menu-item hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="sp-header__menu" class="sp-header__menu">
+            <li class="sp-header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+            <li class="sp-header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+            <li class="sp-header__menu-item"><a href="contact.html">お問い合せ</a></li>
+            <li class="sp-header__menu-item"><a class="sp-header__menu-btn" href="trial.html">体験会ご予約</a></li>
+        </ul>
+    </header>
+
+    <div class="page-parts__container">
+        <!-- 下層ページのヘッダー -->
+        <div class="page-parts__header contact__header">
+            <picture>
+                <source class="page-parts__header-mask" srcset="img/sp-page-parts__header-mask.svg" alt="" media="(max-width: 639px)">
+                <img class="page-parts__header-mask" src="img/page-parts__header-mask.svg" alt="">
+            </picture>
+            <h2 class="page-parts__maintitle">お問い合わせ</h2>
+        </div>
+
+        <div class="contact__inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">お気軽にお問い合わせください</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+
+            <form class="form" action="#" method="post">
+                <div class="form-row">
+                    <h3><label for="name">お名前</label></h3>
+                    <div class="input">
+                        <input type="text" name="name" id="name" placeholder="例　)　田中 花子">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <h3><label for="ruby">フリガナ</label></h3>
+                    <div class="input"><input type="text" name="ruby" id="ruby" placeholder="例　)　タナカ ハナコ"></div>
+                </div>
+                <div class="form-row">
+                    <h3><label for="tel">お電話番号</label></h3>
+                    <div class="input"><input type="tel" name="tel" id="tel" placeholder="例　)　000-0000-0000"></div>
+                </div>
+                <div class="form-row">
+                    <h3><label for="text">お問い合わせ内容</label></h3>
+                    <div class="textarea"><textarea name="text" id="text" rows="10" placeholder="お問い合わせ内容をご記入ください"></textarea></div>
+                </div>
+                <div class="form-row">
+                    <a href="#" class="form-btn">お問い合わせする</a>
+                </div>
+            </form>
+        </div>
+        <div class="common-inner">
+            <div class="common-title">
+                <h2 class="common-maintitle">SNSからの<span class="sp-br"></span>お問い合わせも可能です</h2>
+                <img src="img/orange-line.svg" alt="" class="common-line">
+            </div>
+
+            <div class="sns__subtitle">
+                <h3>
+                    Instagram公式アカウントフォロー<br>
+                    &amp;<br>
+                    DMからのお申し込みで<span>10%OFF</span>
+                </h3>
+            </div>
+            <div class="sns__desc">
+                <p class="sns__text">
+                    自宅でできる簡単なヨガや哲学を配信中です♪<br>
+                    来店の際にInstagramの画面をスタッフにお見せください。
+                </p>
+                <div class="sns__link mt-20">
+                    <a href="#"><i class="fab fa-instagram official"></i></a>
+                    <div class="sns__qr"><p>FOLLOW ME !</p><img src="img/QR.svg" alt="QRコード"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- お申込みはこちらから -->
+        <section class="banner common-wrapper">
+            <div class="banner__inner common-inner">
+                <!-- <div class="banner__desc">
+                    <h2 class="banner__desc-title">手ぶらで参加<br>無料レッスン受付中！！</h2>
+                    <img src="img/white-line.svg" class="banner__desc-line">
+                    <p class="banner__desc-text">
+                        練習着、シューズ、マット、何も準備してない・・・<br>
+                        そんなあなたのためにヨガセット1式貸し出し！<br>
+                        フォームで最短3分で予約完了！
+                    </p>
+                    <div class="banner__contact-box">
+                        <img src="img/banner__img.jpg" alt="4人の女性がヨガをしている様子" class="banner__img">
+                        <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a>
+                    </div>
+                </div> -->
+                <picture>
+                    <source class="banner-img" srcset="img/sp-banner.svg" media="(max-width: 639px)">
+                    <img src="img/banner.svg" alt="手ぶらで参加無料レッスン受付中" class="banner-img">
+                </picture>
+                <a href="">
+                    <picture>
+                        <source class="banner-btn" srcset="img/sp-banner-btn.svg" media="(max-width: 639px)">
+                        <img src="img/banner-btn.svg" alt="無料体験会お申し込みはこちら" class="banner-btn">
+                    </picture>
+                </a>
+                <!-- <a href="contact.html" class="banner__contact-btn">無料体験会お申し込みはこちら</a> -->
+            </div>
+        </section>
+    </div>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <picture>
+            <source srcset="img/sp-footer__deco.svg" media="(max-width: 639px)">
+            <img class="footer__deco" src="img/footer__item.svg" alt="">
+        </picture>
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <div class="footer__logo">
+                    <a href="index.html"><img src="img/footer__logo.svg" alt="hotCore" class="footer__logo-img"></a>
+                </div>
+                <div class="footer__desc-detail">
+                    <address>
+                        <p class="address common-text">
+                            〒000-0000 愛媛県松山市==============<br>
+                            089-1234-5678
+                        </p>   
+                    </address>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+                        <li class="footer__menu-item"><a href="resson.html">レッスン一覧</a></li>
+                        <li class="footer__menu-item"><a href="contact.html">お問い合せ</a></li>
+                        <li class="footer__menu-item"><a href="trial.html">体験会ご予約</a></li>
+                    </ul>
+                </div>
+            </div>
+            <small>Copyright &copy; Hot Core</small>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

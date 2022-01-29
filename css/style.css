@@ -36,6 +36,22 @@ p{
     transition: all 0.25s;
 }
 
+.top-header{
+    transition: all 0.3s;
+}
+
+.top-header.scroll{
+    background-color: #FCF8F5;
+}
+
+.top-header__nav{
+    color: #FFFFFF;
+}
+
+.top-header__nav.scroll{
+    color: #413C35;
+}
+
 .header__menu-btn{
     color: #FCF8F5;
     background-color: #FE8C12;

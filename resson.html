@@ -17,18 +17,20 @@
 <body>
 
     <!-- ヘッダー -->
-    <header class="header page-parts__header">
+    <header class="header">
         <div class="header__logo">
             <h1><a href="index.html"><img src="img/logo.svg" alt="hotCoreのロゴ" class="header__logo-img"></a></h1>
         </div>
-        <ul class="header__menu">
-            <li class="header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
-            <li class="header__menu-item"><a href="resson.html">レッスン一覧</a></li>
-            <li class="header__menu-item"><a href="contact.html">お問い合わせ</a></li>
-            <li class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></li>
-        </ul>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+                <li class="header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+                <li class="header__menu-item"><a href="contact.html">お問い合わせ</a></li>
+                <li class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></li>
+            </ul>
+        </nav>
         
-        <!-- ハンバーガーメニュー -->
+        <!-- sp版メニュー -->
         <div class="sp-header">
             <div id="trial-btn" class="header__menu-item"><a class="header__menu-btn" href="trial.html">体験会ご予約</a></div>
             <div id="hamburger" class="header__menu-item hamburger">
@@ -36,13 +38,15 @@
                 <span></span>
                 <span></span>
             </div>
+            <nav id="sp-header__nav" class="sp-header__nav">
+                <ul class="sp-header__menu">
+                    <li class="sp-header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
+                    <li class="sp-header__menu-item"><a href="resson.html">レッスン一覧</a></li>
+                    <li class="sp-header__menu-item"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="sp-header__menu-item"><a class="sp-header__menu-btn" href="trial.html">体験会ご予約</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul id="sp-header__menu" class="sp-header__menu">
-            <li class="sp-header__menu-item"><a href="studio.html">スタジオのご紹介</a></li>
-            <li class="sp-header__menu-item"><a href="resson.html">レッスン一覧</a></li>
-            <li class="sp-header__menu-item"><a href="contact.html">お問い合わせ</a></li>
-            <li class="sp-header__menu-item"><a class="sp-header__menu-btn" href="trial.html">体験会ご予約</a></li>
-        </ul>
     </header>
 
     <div class="page-parts__container">
